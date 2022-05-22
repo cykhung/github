@@ -2,7 +2,9 @@ function makeclass
 
 
 %% Create c:\class folder structure.
-rmdir c:\class
+if exist('c:\class', 'dir') ~= 0
+    rmdir c:\class s
+end
 % unzip C:\Users\student\Desktop\zipfiles\slbe_g.zip c:\class\coursefiles
 mkdir c:\class\coursefiles\slbe_g
 writematrix(1:4, 'c:\class\coursefiles\slbe_g\dummy.txt');
