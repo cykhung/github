@@ -9,7 +9,7 @@ end
 mkdir c:\class\coursefiles\slbe_g
 writematrix(1:4, 'c:\class\coursefiles\slbe_g\dummy.txt');
 copyfile c:\class\coursefiles c:\class\original
-mdkir c:\class\work
+mkdir c:\class\work
 cd c:\class\work
 addpath(genpath('c:\class\coursefiles\slbe_g'))
 
