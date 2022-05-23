@@ -2,6 +2,7 @@ function makeclass
 
 
 %% Create c:\class folder structure.
+cd c:\
 if exist('c:\class', 'dir') ~= 0
     rmdir c:\class s
 end
